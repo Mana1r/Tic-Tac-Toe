@@ -26,6 +26,7 @@ function Game({ channel, setChannel }) {
         <MessageInput noFiles />
       </Window>{' '}
       <button
+        className="btn"
         onClick={async () => {
           await channel.stopWatching();
           setChannel(null);

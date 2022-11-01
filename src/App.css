@@ -73,7 +73,7 @@ body {
   cursor: pointer;
   display: grid;
   place-items: center;
-  font-size: 30px;
+  font-size: 50px;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -102,4 +102,46 @@ h4 {
   width: 220px;
   height: 51px;
   cursor: pointer;
+}
+
+.btn {
+  outline: none;
+  background-color: #8e44ad;
+  color: #fff;
+  font-size: 17px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  padding: 4px 18px;
+  transition: all 230ms ease-in-out;
+  margin-top: 1em;
+  margin-bottom: 700px;
+  margin-right: 3em;
+  cursor: pointer;
+  width: 220px;
+  height: 51px;
+}
+.btn2 {
+  padding: 4px 18px;
+  outline: none;
+
+  margin-top: 1em;
+  margin-left: 960px;
+  margin-bottom: 500px;
+  display: inline-block;
+  background-color: #8e44ad;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 17px;
+  /** padding: 20px;**/
+  width: 220px;
+  height: 51px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 230ms ease-in-out;
+  cursor: pointer;
+  /**margin: 100px;**/
+  position: fixed;
 }
